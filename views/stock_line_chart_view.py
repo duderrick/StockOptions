@@ -109,10 +109,10 @@ class StockLineChartView(QWidget):
         return label
 
     def _on_interval_dropdown_change_event_handler(self):
-        self._search_stock_and_show(self.interval_dropdown.currentText(), self.stock_symbol_text_box.text())
+        self._search_stock_and_show(self.interval_dropdown.currentText(), self.stock_symbol_text_box.text().upper())
 
     def _search_on_click_event_handler(self):
-        self._search_stock_and_show(self.interval_dropdown.currentText(), self.stock_symbol_text_box.text())
+        self._search_stock_and_show(self.interval_dropdown.currentText(), self.stock_symbol_text_box.text().upper())
 
     def _search_stock_and_show(self, interval: str, symbol: str):
         stockLoader = StockPriceLoader()
