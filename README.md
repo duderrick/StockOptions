@@ -56,7 +56,8 @@ If your virtual environment is installed at /home/users/user1/venvs/my_qt_env, a
 
 7. Run the application
 
-    a. Configure your Python path to include the root of the cloned source code.
+    a. Configure your PYTHONPATH to include the root of the cloned source code.
+
     b. Run the application:
     ```bash
     python main.py

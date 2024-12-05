@@ -115,10 +115,10 @@ class StockLineChartView(QWidget):
         self._search_stock_and_show(self.interval_dropdown.currentText(), self.stock_symbol_text_box.text())
 
     def _search_stock_and_show(self, interval: str, symbol: str):
-        # stockLoader = StockPriceLoader()
-        # stockData = stockLoader.load(INTRADAY_TS, symbol, interval)
+        stockLoader = StockPriceLoader()
+        stockData = stockLoader.load(INTRADAY_TS, symbol, interval)
 
-        stockData = json.loads(SAMPLE_STOCK_DATA)
+        # stockData = json.loads(SAMPLE_STOCK_DATA)
         parser = StockParser()
         metadata, stock_prices = parser.parse(stockData)
 
