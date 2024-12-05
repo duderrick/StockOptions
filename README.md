@@ -24,20 +24,26 @@ I would implement a database such as postgres or mongodb to store all of the que
 
 Ensure Python 3.11.9 or later is installed on your system.
 
-3. Create a python virtual environment
+3. Go into cloned repository
+
+   ```bash
+   cd StockOptions
+   ```
+
+4. Create a python virtual environment
 Replace <YOUR VIRTUAL ENV NAME> with your desired virtual environment name:
     ```bash
     python -m venv <YOUR VIRTUAL ENV NAME>
     ```
    
-4. Activate the Virtual Environment
+5. Activate the Virtual Environment
 If your virtual environment is installed at /home/users/user1/venvs/my_qt_env, activate it using:
 
     ```bash
     source /home/users/user1/venvs/my_qt_env/bin/activate
     ```
 
-5. Install Dependencies
+6. Install Dependencies
     a. Navigate to the cloned repository:
     ```bash
     cd <REPO_DIRECTORY>
@@ -48,13 +54,13 @@ If your virtual environment is installed at /home/users/user1/venvs/my_qt_env, a
     pip install -r requirements.txt
     ```
 
-6. Register for an API key
+7. Register for an API key
 
     a. Register for an API key here: https://www.alphavantage.co/support/#api-key
 
     b. Replace the variable API_KEY in /util/commons.py with the API key you just got
 
-7. Run the application
+8. Run the application
 
     a. Configure your PYTHONPATH to include the root of the cloned source code.
 
