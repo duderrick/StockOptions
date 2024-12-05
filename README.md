@@ -17,7 +17,7 @@ I would implement a database such as postgres or mongodb to store all of the que
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/example/repo.git
+   git clone https://github.com/duderrick/StockOptions.git
    ```
 
 2. Install Python
