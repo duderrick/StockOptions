@@ -23,7 +23,7 @@ I would implement a database such as postgres or mongodb to store all of the que
 
 2. Install Python
 
-Ensure Python 3.11.9 or later is installed on your system.
+   Ensure Python 3.11.9 or later is installed on your system.
 
 3. Go into cloned repository
 
@@ -33,9 +33,10 @@ Ensure Python 3.11.9 or later is installed on your system.
 
 4. Create a python virtual environment
 
-Replace <YOUR VIRTUAL ENV NAME> with your desired virtual environment name:
-
+   Replace <YOUR VIRTUAL ENV NAME> with your desired virtual environment name:
+   ```
     python -m venv <YOUR VIRTUAL ENV NAME>
+   ```
    
 5. Activate the Virtual Environment
 
