@@ -34,9 +34,8 @@ Ensure Python 3.11.9 or later is installed on your system.
 4. Create a python virtual environment
 
 Replace <YOUR VIRTUAL ENV NAME> with your desired virtual environment name:
-    ```bash
+
     python -m venv <YOUR VIRTUAL ENV NAME>
-    ```
    
 5. Activate the Virtual Environment
 
